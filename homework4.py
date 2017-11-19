@@ -14,3 +14,4 @@ with sqlite3.connect("cars.db") as connection:
 
 	for r in rows:
 		print(r[0], r[1], r[2])
+`
